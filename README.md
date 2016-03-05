@@ -5,17 +5,17 @@ The developer uses the code in his Google map API implementation. Next, the deve
 
 Keep in mind that a Google map with its default styling has a certain level of recognizability. Everybody knows, when seeing the default styled Google map, that it is a Google Map. If the map is custom styled, the recognizability will somehow be lost.
 
-Implementing the custom styled map consists of 3 parts. 
+## Implementing the custom styled map consists of 3 parts. 
 1. The designer: styles the map with Snazzy maps.
 2. The developer adds the generated code in the Google map API implementation
 3. The developer configures the styled map
 
-* 1: Snazzy maps
+## 1: Snazzy maps
 - The designer goes to https://snazzymaps.com/ and selects 'Create' in the upper menu
 - The designer chooses the preferred Google map styling according to the design
 - Once done, the designer passes the generated Javascript style array to the developer
 
-* 2: Google maps API
+## 2: Google maps API
 - The developer adds the generated styles in a variable 'var styles'
 - The developer can choose which buttons he wants to show on the map: for example the '+' and '-' buttons for zooming
 - The developer can choose the type of the map: a satellite or a normal map
@@ -23,10 +23,13 @@ Implementing the custom styled map consists of 3 parts.
 - The developer can ...
 - I've created a full example which you can find in the repo
 
-* 3: Adding the map to a page
+## 3: Adding the map to a page
 On the page where you want to show the map, you create a <div> with an 'id' equal to 'map'. 
 You leave the <div> empty. 
-For example <div id="map"></div>. The Google map API will automatically fill this div based on the information you gave in the Javascript.
+```shell
+For example <div id="map"></div>. 
+```
+The Google map API will automatically fill this div based on the information you gave in the Javascript.
 
 
-** HAPPY MAPPING **
+### ** HAPPY MAPPING **
