@@ -24,8 +24,8 @@ Keep in mind that a Google map with its default styling has a certain level of r
 - I've created a full example which you can find in the repo
 
 ## 3: Adding the map to a page
-On the page where you want to show the map, you create a ```shell<div>``` with an 'id' equal to 'map'. 
-You leave the <div> empty. 
+On the page where you want to show the map, you create a ```<div>``` with an '#id' equal to 'map'. 
+You leave the ```<div>``` empty. 
 ```shell
 For example <div id="map"></div>. 
 ```
